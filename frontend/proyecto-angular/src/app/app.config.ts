@@ -1,0 +1,12 @@
+// frontend/src/app/app.config.ts o app.module.ts
+import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+import { routes } from './app.routes';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideRouter(routes),
+    importProvidersFrom(HttpClientModule) // ← Asegurar que esté aquí
+  ]
+};
