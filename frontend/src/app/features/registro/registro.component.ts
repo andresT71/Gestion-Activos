@@ -7,6 +7,7 @@ import {
   FormGroup,
 } from "@angular/forms";
 import { QRCodeModule } from "angularx-qrcode";
+import { QRCodeComponent } from 'angularx-qrcode';
 
 import { StorageService } from "../../shared/storage.service";
 import { ApiService, Activo } from "src/app/shared/api.service";

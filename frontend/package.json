@@ -20,7 +20,7 @@
     "@zxing/browser": "^0.1.5",
     "@zxing/library": "^0.21.3",
     "@zxing/ngx-scanner": "^17.0.4",
-    "angularx-qrcode": "^16.0.2",
+    "angularx-qrcode": "^17.0.0",
     "bootstrap": "^5.3.7",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2"

@@ -1,0 +1,6 @@
+# backend/.dockerignore y frontend/.dockerignore
+node_modules
+.git
+.gitignore
+*.log
+.env
